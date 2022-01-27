@@ -1,0 +1,248 @@
+<html>
+<link rel="stylesheet" type="text/css" href="fundo.css" media="screen" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    /*PARTE DO SITE*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #03396c;
+    }
+
+    .container {
+        margin: 0;
+        background-color: #021f3a;
+    }
+
+    .box {
+        color: white;
+        padding: 150px;
+        margin-top: -50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 50px;
+    }
+
+    h1 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-shadow: 3px 5px 0px rgb(0, 0, 0, 0.5);
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .row {
+        content: "";
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .arrow {
+        width: 300px;
+    }
+
+    .first_h1 {
+        margin-top: 25px;
+        font-size: 70px;
+    }
+
+    @media only screen and (orientation: landscape) {
+        .icons {
+            width: 250px;
+        }
+    }
+
+    .first_p {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .me {
+        width: 300px;
+    }
+
+    @media only screen and (orientation: portrait) {
+        .box {
+            color: white;
+            padding: 100px;
+        }
+
+        h1 {
+            font-size: 65px;
+        }
+
+        .icons {
+            width: 250px;
+        }
+
+        .first_p {
+            font-size: 40px;
+        }
+
+        .me {
+            width: 400px;
+        }
+
+        .arrow {
+            display: none;
+        }
+
+        button {
+            background: white;
+            margin: 30px;
+            border-radius: 25px;
+            font-size: 35px;
+            font-family: 'Montserrat', sans-serif;
+            padding: 35px;
+            width: 500px;
+            border: none;
+        }
+
+    }
+
+
+    a {
+        text-decoration: none;
+        font-size: 90px;
+        margin: 20px;
+        transition: transform .7s;
+        color: white;
+    }
+
+    a:hover {
+        opacity: 0.7;
+        transform: scale(1.5);
+    }
+
+    .rotate180 {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+
+    button {
+        background: white;
+        margin: 30px;
+        border-radius: 25px;
+        transition: transform .7s;
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 25px;
+        width: 50%;
+        border: none;
+    }
+
+    button:hover {
+        opacity: 0.7;
+    }
+</style>
+
+<body>
+    <title>Meu Portifólio</title>
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <center>
+                    <img class="me" style="border-radius: 30% 70% 70% 30% / 30% 51% 49% 70% ;" src="imagens/eu.jpg">
+                    <br><br>
+
+                    <p class="first_p">Olá, sou markyn, desenvolvedor full-stack especializado em aplicativos nodejs,
+                        desenvolvimento web, bancos de dados NoSQL e criador de diversos projetos de código aberto no
+                        github,e bastante conhecido no mundo de desenvolvimento de bots para Discord.</p>
+                    <button
+                        onclick="window.location.href='https://api.whatsapp.com/send?1=pt_BR&phone=5521993982865'">Clique
+                        aqui para contatar</button><br><br><br>
+                    <a href="https://github.com/markyndev"><i class="fa fa-github-square"></i></a>
+                    <a href="https://www.instagram.com/markyndev/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/markyndev"><i class="fa fa-twitter-square"></i></a>
+                    <br>
+                    <img width="200px" src="imagens/seta-baixo.gif">
+                </center>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <img width="100%" src="imagens/wave.svg">
+    <br><br>
+    <div class="row">
+        <div class="box">
+            <center>
+                <img class="icons" src="imagens/1.png">
+                <br><br><br>
+                <h1>Melhor Otimização</h1>
+                <p>Tenha seu projeto ou site com a melhor otimização do mercado, adeus travadinhas.</p>
+            </center>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="box">
+            <center>
+                <img class="icons" src="imagens/2.png">
+                <br><br><br>
+                <h1>Entrega Eficiente</h1>
+                <p>Chega do desenvolvedor empacando projetos, receba o seu pedido completo em pouco tempo.</p>
+            </center>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="box">
+            <center>
+                <img class="icons" src="imagens/3.png">
+                <br><br><br>
+                <h1>Resposta Eficaz</h1>
+                <p>Converse a qualquer hora com a nossa equipe de desenvolvimento, além de receber sempre novidades
+                    sobre a progressão do seu pedido.</p>
+            </center>
+
+        </div>
+    </div>
+
+    <img class="rotate180" width="100%" style="margin-bottom: -10px    ;" src="imagens/wave.svg">
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="box">
+                <center> <img class="icons"
+                        src="imagens/4.png">
+                    <h1>Minhas Habilidades & Projetos</h1>
+                    <p>Sou um desenvolvedor intermediario, com ampla capacidade de atuação de desenvolvimento em
+                        projetos:
+                        NODE.JS, Python, JavaScript ,Golang ,Assembly e C++. Além de conhecimento intermediario em
+                        desenvolvimento e design sites</p>
+
+                        <br><br>
+                        <img class="icons" src="https://camo.githubusercontent.com/d99d05908b0f205c034add2d24d94f870d46bdb6209a3536f7027392a01ff623/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3835333539343732343137373830353333332f3835393139383034383537303936363034362f506963734172745f30362d32382d30372e32352e31382e706e67">
+                        <img class="icons" src="https://camo.githubusercontent.com/be4bfeeef752c967650f9db86fe2f724111e5db9d59351af24ed92e7ea1498ad/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3835323938323439303734393939323936302f3835343136333836303739333139363537342f506963734172745f30362d31342d31302e30322e30332e706e673f77696474683d353838266865696768743d323733">
+                        <img class="icons" src="https://raw.githubusercontent.com/markyndev/dog-cryptor/main/imgs/text_logo.png">
+                        
+                    </center>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

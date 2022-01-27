@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<style>
+
+
+  body {
+    background-color: white;
+    color: black;
+    margin: 0;
+  }
+
+  .logo {
+    margin: 25px;
+
+    width: 15%;
+  }
+
+  h1 {
+
+  }
+
+  .form input {
+
+  text-align: center;
+    background: white;
+
+
+    color: #222326;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+
+  .form button {
+
+    outline: 0;
+    background: rgb(0, 140, 255);
+    width: 35%;
+
+    border: 0;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .form button:hover {
+    background: rgb(136, 136, 136);
+  }
+
+  .form hr {
+    width: 30%;
+    border: 4px solid white;
+    border-radius: 250px;
+  }
+
+  @media only screen and (orientation: portrait) {
+    .logo {
+      width: 40%;
+    }
+
+    .form button {
+      width: 90%;
+    }
+
+    .form input {
+      width: 80%;
+    }
+  }
+</style>
+<html>
+
+<head>
+</head>
+<head>
+  <meta charset="UTF-8">
+
+  <title>MyHost - Config</title>
+</head>
+
+
+
+<body>
+  <div class="container" style="background-color:#222326;">
+    <center><img class="logo" src="/images/logo_myhost.png"></center>
+    <br>
+    <div align="center"class="form">
+   <form action="/MHPanel/config" method="post">
+    <input align="left" type="text" style=" margin: -3px;" name="ip" placeholder="Server IP">
+    <input type="text"align="left" name="port" placeholder="Server Port">
+        <input type="text"align="center" name="path" style="" value="./public" placeholder="Path to host">
+    <br> <br> 
+    <button id="start">Click here to start</button>
+    
+  </form>
+  </div>
+  <br><br><br><br><br>
+  </div>
+ <img src="/images/divider.svg">
+
+
+
+
+</body>
+
+</html>
